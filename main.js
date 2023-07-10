@@ -44,8 +44,6 @@ function adicionaLinha(){
 function atualizaTabela(){
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
-
-    alert(`Atividade: ${inputNomeAtividade.value} - Nota: ${inputNotaAtividade.value}`);
 }
 
 function atualizaMediaFinal(){
